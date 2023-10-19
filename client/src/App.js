@@ -1,9 +1,12 @@
-function App() {
-  
-  const tasks = ['abc','cde','efgh','xyz']
+
+import Tasks from "./Tasks"
+
+function App() {  
   
     return (
-      <div className="App"></div>
+      <div className="App">
+        <Tasks/>
+      </div>
     )
 }
 
